@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM</title>
+</head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="css/style.css">
+<style>
+body{
+
+    font-family: 'Montserrat', sans-serif;
+
+    margin:0px;
+    padding:0px;
+    background:url('man-2604149_1280.jpg');
+
+}
+.left{
+    display:inline-block;
+    color: rgb(254, 245, 254);
+   /* border:2px solid red;*/
+    position:absolute;
+    left:54px;
+    top:20px;
+}
+.left img{
+    width:136px;
+
+}
+.left div{
+    text-align: center;
+
+}
+
+.mid{
+    display:block;
+    width:41%;
+    margin:29px auto;
+    color: rgb(14, 117, 135);
+  /*  border:2px solid green;*/
+}
+
+.right{
+    display:inline-block;
+    position:absolute;
+    right:54px;
+    top:47px;
+    color: rgb(249, 244, 243);
+   /* border:2px solid rgb(246, 242, 242);*/
+}
+.btn{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(247, 252, 250);
+    margin:0px 13px;
+    padding:4px 14 px;
+    border:2px solid grey;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor:pointer;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li {
+    display: inline-block;
+    font-size: 21px;
+}
+.navbar li a{
+    color:white;
+    text-decoration: none;
+    padding:34px 23px;
+}
+.navbar li a:hover,.navbar li a.active{
+    color:rgb(179, 120, 12);
+    text-decoration: underline;
+}
+.container{
+
+
+    color: antiquewhite;
+    margin: 122px 34px;
+    padding: 48px 22px;
+    width: 38%;
+    border-radius: 14px;
+}
+.form-group input{
+    text-align: center;
+    display:block;
+    margin:3px auto;
+    width:350px;
+    padding:1px;
+font-size: 21px;
+border:2px solid black;
+border-radius: 8px;
+font-family: 'Montserrat', sans-serif;
+}
+.container h2{
+text-align: center;
+}
+.container button{
+display: block;
+width: 90px;
+    margin: 39px 80px;
+    padding: 6px;
+}
+.container button:hover{
+    background-color: rgb(101, 72, 244);
+}
+
+
+
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+     <img src="https://www.logolynx.com/images/logolynx/3f/3fe209d213f1e1924a5349cf14a64e33.png" alt="read">
+     <div>Russian Body Tips</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li> <a href="#">Home</a></li>
+                <li> <a href="#">About us</a></li>
+                <li> <a href="#">Fitness Center</a></li>
+                <li> <a href="#">Contact us</a></li>
+            </ul>
+        </div>
+          <div class="right">
+      <button class="btn">INFO</button>
+      <button class="btn">Email us</button>
+          </div>
+    </header>
+    <div class="container">
+    <h2>Best gym in Delhi</h2>
+    <form action="noaction.php">
+    <div class="form-group">
+        <input type="text" name="" placeholder="Enter your name">
+    </div>
+    <div class="form-group">
+        <input type="text" name="" placeholder="enter your Age">
+    </div>
+    <div class="form-group">
+        <input type="text" name="" placeholder="enter your Gender">
+    </div>
+    <div class="form-group">
+        <input type="text" name="" placeholder="enter your Locality">
+    </div>
+    <div class="form-group">
+        <input type="text" name="" placeholder="Phone Number">
+    </div>
+    <div class="form-group">
+        <input type="text" name="" placeholder="Email address">
+    </div>
+</form>
+    <button class="btn">Submit</button>
+
+    </div>
+
+</body>
+</html>
